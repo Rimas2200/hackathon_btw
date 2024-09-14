@@ -11,7 +11,7 @@
 
 ### Employer API
 Модуль работодателя.
-- [Создать/обновить вакансию]()
+- [Создать/обновить вакансию](Employer/vacancy.md)
 - [Удалить вакансию]()
 
 ### Student API
@@ -21,4 +21,4 @@
 
 ### Educational institution API
 Модуль учебного заведения.
-- [Просмотр списка студентов]()
+- [Просмотр списка студентов](Educational_institution/list_of_students.md)
