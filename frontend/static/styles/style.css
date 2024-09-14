@@ -138,7 +138,7 @@ body {
 /* Блок 2 */
 .block-2 {
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     overflow: hidden;
 }
 .block-2-info {
@@ -226,4 +226,178 @@ body {
     width: 700px;
     user-select: none;
 
+}
+
+
+/* Блок 3 */
+.block-3-gradient {
+    padding-bottom: 100px;
+    overflow: hidden;
+
+    background-image: linear-gradient(to bottom, #e6e6e6, #bab7b7);
+}
+.b3-search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin: 40px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: rgb(196,194,194);
+}
+.b3-search>input {
+    background: none;
+    outline: none;
+    border: none;
+
+    font-size: 20pt;
+    color: rgb(240,239,239);
+    margin-left: 30px;
+    height: 60px;
+    width: 100%;
+}
+.b3-search>input::placeholder {
+    color: rgb(240,239,239);
+}
+.b3-search>img {
+    margin-right: 30px;
+    margin-left: 15px;
+    user-select: none;
+}
+
+
+.block-3-info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 50px;
+    background-color: rgb(175,173,173);
+}
+.b3-info-lg {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #cdcdb1;
+    overflow: hidden;
+
+}
+.b3-info-sm {
+    display: flex;
+    margin: 30px;
+    width: 33%;
+    border-radius: 40px;
+    background-color: #cdcdb1;
+    overflow: hidden;
+}
+.b3-info-head {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 60px;
+    font-size: 20pt;
+    width: 80%;
+    word-wrap: break-word;
+    color: inherit;
+}
+.b3-info-text {
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: 16pt;
+    text-align: justify;
+    word-wrap: break-word;
+    color: inherit;
+}
+.b3-info-sm-90p {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(180,180,168);
+}
+.b3-info-sm-10p {
+    width: 10%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.b3-info-lg-1-90p {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(195,196,170);
+}
+
+.b3-info-lg-2-90p {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204,206,167);
+}
+.b3-info-lg-8p {
+    width: 8%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+.contact-info {
+    position: relative;
+
+    margin-top: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.cont-info-head {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20pt;
+    word-wrap: break-word;
+    color: rgb(240,239,239);
+}
+.cont-info-text {
+    margin: 0;
+    font-size: 16pt;
+    text-align: justify;
+    word-wrap: break-word;
+    color: rgb(240,239,239);
+}
+
+/* Бабочка 3 блока */
+.b3-bf-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+}
+.b3-bf {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.b3-bf-1 {
+    position: absolute;
+    top: -256px;
+    left: -518px;
+    rotate: 209deg;
+    width: 700px;
+    user-select: none;
+    color: inherit;
 }
