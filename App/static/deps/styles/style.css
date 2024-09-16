@@ -1,0 +1,403 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(230, 230, 230);
+    margin: 0;
+}
+
+/* Хэдер */
+.header {
+    display: flex;
+    margin: 25px;
+}
+
+.header>img {
+    height: 70px;
+    padding-right: 20px;
+    user-select: none;
+}
+
+.header>nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header>nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+    padding-right: 50px;
+    font-size: 25pt;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Блок с кнопкой "К вакансиям" */
+.to-vacancies {
+    width: 40%;
+    background-color: rgb(163,166,143);
+    border-top-right-radius: 400px;
+    border-top-left-radius: 3%;
+    overflow: hidden;
+}
+
+.to-vacancies>button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    background-color: rgb(126,130,98);
+    margin: 35px;
+    margin-bottom: 300px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 20pt;
+}
+
+/* Блок с общей информацией */
+.gen-info {
+    width: 80%;
+    background-color: rgb(255,255,255);
+    border-top-right-radius: 400px;
+    border-bottom-right-radius: 400px;
+    border-top-left-radius: 3%;
+    position: relative;
+    margin-top: -265px;
+    margin-bottom: -225px;
+    overflow: hidden;
+}
+.info-head {
+    margin: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-right: 40%;
+    font-size: 20pt;
+    text-align: justify;
+}
+.info-text {
+    margin: 35px;
+    margin-bottom: 210px;
+    margin-left: 50px;
+    padding-right: 30%;
+    font-size: 16pt;
+    text-align: justify;
+}
+
+/* Изображение бабочка с иконкой */
+.workers-image-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 50px;
+    bottom: 0;
+    /* Позиционирование относительно .gradient-block-1 */
+}
+
+.workers-image {
+    /* Сброс стилей */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.workers-image-1 {
+    position: absolute;
+    bottom: 600px;
+    right: 315px;
+    user-select: none;
+    z-index: 2;
+}
+.workers-image-2 {
+    position: absolute;
+    bottom: 190px;
+    right: -125px;
+    rotate: 158deg;
+    width: 1000px;
+    user-select: none;
+    z-index: 1;
+}
+
+/* Градиент для первого блока */
+.gradient-block-1 {
+    background-image: linear-gradient(to bottom right, #e1e1e1, #cdcbcb);
+    overflow: hidden;
+}
+
+
+
+/* Блок 2 */
+.block-2 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.block-2-info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.b2-info {
+    align-items: start;
+    margin: 15px;
+    padding: 10px;
+    max-width: 20%;
+
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, #cdcbcbc2, #e1e1e100);
+    background-color: rgba(230, 230, 230, 0.3);
+}
+.b2-info>div {
+    display: flex;
+    align-items: flex-start;
+    color: inherit;
+}
+.b2-info-head {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 60px;
+    font-size: 20pt;
+    width: 80%;
+    word-wrap: break-word;
+    color: inherit;
+}
+.b2-info-text {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 100px;
+    font-size: 16pt;
+    text-align: justify;
+    word-wrap: break-word;
+    color: inherit;
+}
+.b2-info>div>img {
+    margin-top: 15px;
+    margin-right: 15px;
+    user-select: none;
+    color: inherit;
+}
+
+.b2-bf-wrapper-1 {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+}
+.b2-bf-wrapper-2 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+}
+
+.b2-bf {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.b2-bf-1 {
+    position: absolute;
+    top: -110px;
+    left: -45px;
+    rotate: 200deg;
+    width: 700px;
+    user-select: none;
+}
+.b2-bf-2 {
+    position: absolute;
+    top: -110px;
+    right: -228px;
+    rotate: 256deg;
+    width: 700px;
+    user-select: none;
+
+}
+
+
+/* Блок 3 */
+.block-3-gradient {
+    padding-bottom: 100px;
+    overflow: hidden;
+
+    background-image: linear-gradient(to bottom, #e6e6e6, #bab7b7);
+}
+.b3-search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin: 40px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 20px;
+    border-radius: 35px;
+    background-color: rgb(196,194,194);
+}
+.b3-search>input {
+    background: none;
+    outline: none;
+    border: none;
+
+    font-size: 20pt;
+    color: rgb(240,239,239);
+    margin-left: 30px;
+    height: 60px;
+    width: 100%;
+}
+.b3-search>input::placeholder {
+    color: rgb(240,239,239);
+}
+.b3-search>img {
+    margin-right: 30px;
+    margin-left: 15px;
+    user-select: none;
+}
+
+
+.block-3-info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 50px;
+    background-color: rgb(175,173,173);
+}
+.b3-info-lg {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 40%;
+    border-radius: 40px;
+    background-color: #cdcdb1;
+    overflow: hidden;
+
+}
+.b3-info-sm {
+    display: flex;
+    margin: 30px;
+    width: 33%;
+    border-radius: 40px;
+    background-color: #cdcdb1;
+    overflow: hidden;
+}
+.b3-info-head {
+    margin: 0;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 60px;
+    font-size: 20pt;
+    width: 80%;
+    word-wrap: break-word;
+    color: inherit;
+}
+.b3-info-text {
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 35px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    font-size: 16pt;
+    text-align: justify;
+    word-wrap: break-word;
+    color: inherit;
+}
+.b3-info-sm-90p {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(180,180,168);
+}
+.b3-info-sm-10p {
+    width: 10%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.b3-info-lg-1-90p {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(195,196,170);
+}
+
+.b3-info-lg-2-90p {
+    width: 90%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204,206,167);
+}
+.b3-info-lg-8p {
+    width: 8%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+.contact-info {
+    position: relative;
+
+    margin-top: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.cont-info-head {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20pt;
+    word-wrap: break-word;
+    color: rgb(240,239,239);
+}
+.cont-info-text {
+    margin: 0;
+    font-size: 16pt;
+    text-align: justify;
+    word-wrap: break-word;
+    color: rgb(240,239,239);
+}
+
+/* Бабочка 3 блока */
+.b3-bf-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+}
+.b3-bf {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.b3-bf-1 {
+    position: absolute;
+    top: -256px;
+    left: -518px;
+    rotate: 209deg;
+    width: 700px;
+    user-select: none;
+    color: inherit;
+}
