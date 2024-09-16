@@ -1,0 +1,171 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Биржа производственных практик</title>
+    <link rel="stylesheet" href="{% static "deps/fonts/fonts.css" %}">
+    <link rel="stylesheet" href="{% static "deps/styles/style.css" %}">
+</head>
+
+<body>
+    <div class="gradient-block-1">
+        <div class="header">
+            <img src="{% static "deps/images/logo.png" %}" alt="Лого">
+            <nav>
+                <ul>
+                    <li><a href="#">Поиск вакансий</a></li>
+                    <li><a href="#">Поиск сотрудников</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="to-vacancies">
+            <button>К вакансиям ➞</button>
+        </div>
+
+
+        <div class="gen-info">
+            <p class="info-head">
+                Путь к карьерному росту начинается здесь: найди свою перспективную работу уже сегодня.
+                <br><br>
+            </p>
+            <p class="info-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti rerum architecto, accusantium vero
+                atque. Obcaecati omnis quisquam eaque aut veritatis saepe perspiciatis, accusamus, eveniet nihil
+                impedit, a commodi veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+                reprehenderit odit libero aliquid dicta molestias laborum quidem blanditiis rem ipsa saepe dignissimos
+                quia sapiente iusto, temporibus distinctio culpa porro. Necessitatibus? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repudiandae laudantium dolorem aliquam? Architecto neque voluptatum, eius
+                saepe doloribus assumenda ipsam ad, inventore, accusamus laboriosam libero error quas debitis dolores
+                consequatur.Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti rerum architecto,
+                accusantium vero
+                atque. Obcaecati omnis quisquam eaque aut veritatis saepe perspiciatis, accusamus, eveniet nihil
+                impedit, a commodi veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+                reprehenderit odit libero aliquid dicta molestias laborum quidem blanditiis rem ipsa saepe dignissimos
+                quia sapiente iusto, temporibus distinctio culpa porro. Necessitatibus? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Repudiandae laudantium dolorem aliquam? Architecto neque voluptatum, eius
+                saepe doloribus assumenda ipsam ad, inventore, accusamus laboriosam libero error quas debitis dolores
+                consequatur.
+            </p>
+        </div>
+        <div class="workers-image-wrapper">
+            <div class="workers-image">
+                <img class="workers-image-1" src="{% static "deps/images/employees.svg" %}" alt="Работники">
+                <img class="workers-image-2" src="{% static "deps/images/butterfly.svg" %}" alt="Бабочка">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="block-2">
+        <div class="b2-bf-wrapper-1">
+            <div class="b2-bf">
+                <img class="b2-bf-1" src="{% static "deps/images/butterfly-grey.svg" %}" alt="Бабочка">
+            </div>
+        </div>
+        <div class="b2-bf-wrapper-2">
+            <div class="b2-bf">
+                <img class="b2-bf-2" src="{% static "deps/images/butterfly-grey.svg" %}" alt="Бабочка">
+            </div>
+        </div>
+        <div class="block-2-info">
+            <div class="b2-info">
+                <div>
+                    <p class="b2-info-head">Быстрый и удобный поиск практики</p>
+                    <img src="{% static "deps/images/globe-03.svg" %}">
+                </div>
+                <p class="b2-info-text"> Сосредоточьтесь на своих целях, а не на поиске информации.
+                    Огромная база данных практик от разных компаний.
+                    Фильтры по специализации, городу, датам и другим критериям.
+                    Быстрый доступ к актуальной информации</p>
+            </div>
+
+            <div class="b2-info">
+                <div>
+                    <p class="b2-info-head">Прямой контакт с компаниями</p>
+                    <img src="{% static "deps/images/bar-chart-square-up-01.svg" %}">
+                </div>
+                <p class="b2-info-text"> Связь с работодателями напрямую.
+                    Отправьте резюме и сопроводительное письмо одним кликом.
+                    Узнайте больше о практике, задайте вопросы работодателям.
+                    Снизьте риск потери времени на неподходящие предложения</p>
+            </div>
+
+            <div class="b2-info">
+                <div>
+                    <p class="b2-info-head">Дополнительные возможности для развития</p>
+                    <img src="{% static "deps/images/chart-breakout-circle.svg" %}">
+                </div>
+                <p class="b2-info-text"> Информационные материалы и полезные советы по поиску практики.
+                    Возможность участия в онлайн-курсах и мастер-классах.
+                    Советы по составлению резюме и прохождению собеседования.
+                    Сообщество студентов, где можно найти единомышленников</p>
+            </div>
+
+            <div class="b2-info">
+                <div>
+                    <p class="b2-info-head">Больше шансов на трудоустройство</p>
+                    <img src="{% static "deps/images/bar-chart-square-01.svg" %}">
+                </div>
+                <p class="b2-info-text"> Демонстрация вашего желания работать в выбранной сфере.
+                    Получение практических навыков, ценных для работодателей.
+                    Формирование профессиональных связей с потенциальными работодателями.
+                    Увеличение ваших шансов на получение предложения о работе после практики</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-3-gradient">
+        <div class="b3-search">
+            <input type="search" id="" placeholder="Поиск вакансии">
+            <img src="{% static "deps/images/align-right-02.svg" %}">
+        </div>
+
+        <div class="block-3-info">
+            <div class="b3-info-sm">
+                <div class="b3-info-sm-90p">
+                    <p class="b3-info-head">Компании дня</p>
+                    <p class="b3-info-text">x вакансий</p>
+                </div>
+                <div class="b3-info-sm-10p">
+                </div>
+            </div>
+
+            <div class="b3-info-lg">
+                <div class="b3-info-lg-1-90p">
+                    <p class="b3-info-head">Вакансии дня</p>
+                    <p class="b3-info-text">x вакансий</p>
+                </div>
+                <div class="b3-info-lg-8p"></div>
+            </div>
+
+            <div class="b3-info-lg">
+                <div class="b3-info-lg-2-90p">
+                    <p class="b3-info-head">Подработка</p>
+                    <p class="b3-info-text">x вакансий</p>
+                </div>
+                <div class="b3-info-lg-8p"></div>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <p class="cont-info-head">Контактная информация</p>
+            <p class="cont-info-text">
+                Почта: example@ekadm.ru <br>
+                Адрес: 620014, Екатеринбург, проспект Ленина, 24а <br>
+                Телефон: +7 (343) 304-33-90
+            </p>
+        </div>
+        <div class="b3-bf-wrapper">
+            <div class="b3-bf">
+                <img class="b3-bf-1" src="{% static "deps/images/butterfly-grey-dark.svg" %}" alt="Бабочка">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
