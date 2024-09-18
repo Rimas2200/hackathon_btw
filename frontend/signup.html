@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - Биржа производственных практик</title>
+    <link rel="stylesheet" href="static/fonts/fonts.css">
+    <link rel="stylesheet" href="static/styles/style_signup.css">
+</head>
+
+<body>
+    <div class="block-1">
+        <div class="header">
+            <img src="static/images/logo.png" alt="Лого">
+            <nav>
+                <ul>
+                    <li>Регистрация</li>
+                    <li><a href="login.html">Есть аккаунт? Войти ➞</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="tabs">
+            <div class="tabs-outline"></div>
+            <nav>
+                <ul>
+                    <li>
+                        <div class="tab-active" id="tab-student"></div>
+                        <div class="tab-name"><button id="btn-student">Студент</button></div>
+                    </li>
+                    <li>
+                        <div class="tab-passive" id="tab-employer"></div>
+                        <div class="tab-name"><button id="btn-employer">Работодатель</button></div>
+                    </li>
+                    <li>
+                        <div class="tab-passive" id="tab-institution"></div>
+                        <div class="tab-name"><button id="btn-institution">Учебное заведение</button></div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <script src="static/scripts/signup_tabs.js"></script>
+
+        <div class="b1-bf-wrapper">
+            <div class="b1-bf">
+                <img class="b1-bf-1" src="static/images/butterfly-grey.svg" alt="Бабочка">
+            </div>
+        </div>
+    </div>
+    
+    <div class="block-2">
+        <div class="b2-input">
+            <img src="static/images/User-logo.svg">
+            <div>
+                <input type="text" placeholder="Логин">
+            </div>
+        </div>
+        <div class="b2-input">
+            <img src="static/images/Mail-logo.svg">
+            <div>
+                <input type="text" placeholder="Почта">
+            </div>
+        </div>
+        <div class="b2-input" id="fcs_field">
+            <img src="static/images/User-logo.svg">
+            <div class="multi">
+                <input type="text" placeholder="Фамилия">
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Отчество">
+            </div>
+        </div>
+        <div class="b2-input" id="institution_field">
+            <img src="static/images/User-logo.svg">
+            <div>
+                <select>
+                    <option disabled selected>Учебное заведение</option>
+                    <option>Уральский федеральный университет</option>
+                    <option>Уральский государственный университет путей сообщения</option>
+                </select>
+            </div>
+        </div>
+        <div class="b2-input hidden" id="company_field">
+            <img src="static/images/User-logo.svg">
+            <div>
+                <input type="text" placeholder="Название компании">
+            </div>
+        </div>
+        <div class="b2-input">
+            <img src="static/images/Key-logo.svg">
+            <div>
+                <input type="password" placeholder="Пароль">
+            </div>
+        </div>
+        <div class="b2-input">
+            <img src="static/images/Key-logo.svg">
+            <div>
+                <input type="password" placeholder="Повтор пароля">
+            </div>
+        </div>
+        <div class="b2-btn">
+            <button>Зарегистрироваться</button>
+        </div>
+    </div>
+</body>
+
+</html>
