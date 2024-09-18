@@ -39,6 +39,12 @@ body {
     text-decoration: none;
     color: inherit;
 }
+.header>nav>ul>li>a:hover {
+    color: #757575;
+}
+.header>nav>ul>li>a:active {
+    color: rgb(163,166,143);
+}
 
 /* Блок с кнопкой "К вакансиям" */
 .to-vacancies {
@@ -62,6 +68,12 @@ body {
     padding-right: 30px;
     border-radius: 30px;
     font-size: 20pt;
+}
+.to-vacancies>button:hover {
+    background-color: rgb(204,206,167);
+}
+.to-vacancies>button:active {
+    background-color: rgb(195,196,170);
 }
 
 /* Блок с общей информацией */
